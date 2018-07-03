@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="sublime-text_subl.desktop" open-window-count="3" score="5680" last-seen="1530637216"/>
+    <application id="sublime-text_subl.desktop" open-window-count="0" score="5680" last-seen="1530637216"/>
     <application id="firefox.desktop" open-window-count="0" score="79" last-seen="1530289979"/>
     <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="0" last-seen="1530289976"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1530289059"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="492" last-seen="1530637535"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="9335" last-seen="1530637595"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="627" last-seen="1530658133"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="12064" last-seen="1530657838"/>
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="71" last-seen="1530289051"/>
     <application id="org.gnome.Software.desktop" open-window-count="0" score="29" last-seen="1530290082"/>
   </context>
