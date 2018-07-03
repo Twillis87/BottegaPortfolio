@@ -394,3 +394,41 @@ Release Date: 2017-12-20
 [    73.367] (II) modeset(0): DDCModeFromDetailedTiming: 1366x664 Warning: We only handle separate sync.
 [    73.367] (II) modeset(0): Using EDID range info for horizontal sync
 [    73.367] (II) modeset(0): Using EDID range info for vertical refresh
+[  1264.317] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1264.317] (II) modeset(0): DDCModeFromDetailedTiming: 1366x664 Warning: We only handle separate sync.
+[  1264.317] (II) modeset(0): Using hsync ranges from config file
+[  1264.317] (II) modeset(0): Using vrefresh ranges from config file
+[  1264.334] (II) config/udev: removing device VirtualBox USB Tablet
+[  1264.334] (**) Option "fd" "26"
+[  1264.334] (II) event5  - VirtualBox USB Tablet: device removed
+[  1264.366] (II) UnloadModule: "libinput"
+[  1264.366] (II) systemd-logind: releasing fd for 13:69
+[  1264.367] (EE) systemd-logind: failed to release device: Device not taken
+[  1264.764] (II) modeset(0): EDID vendor "VBX", prod id 0
+[  1264.764] (II) modeset(0): DDCModeFromDetailedTiming: 1366x664 Warning: We only handle separate sync.
+[  1264.764] (II) modeset(0): Using hsync ranges from config file
+[  1264.764] (II) modeset(0): Using vrefresh ranges from config file
+[  1265.400] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[  1265.400] (II) No input driver specified, ignoring this device.
+[  1265.400] (II) This device may have been added with another device file.
+[  1265.403] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[  1265.403] (II) No input driver specified, ignoring this device.
+[  1265.403] (II) This device may have been added with another device file.
+[  1265.472] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+[  1265.472] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[  1265.472] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[  1265.535] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 41 paused 0
+[  1265.535] (**) VirtualBox USB Tablet: always reports core events
+[  1265.535] (**) Option "Device" "/dev/input/event5"
+[  1265.535] (**) Option "_source" "server/udev"
+[  1265.536] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[  1265.536] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[  1265.536] (II) event5  - VirtualBox USB Tablet: device removed
+[  1265.549] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0002/input/input8/event5"
+[  1265.551] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[  1265.557] (**) Option "AccelerationScheme" "none"
+[  1265.564] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[  1265.564] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[  1265.564] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[  1265.566] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[  1265.566] (II) event5  - VirtualBox USB Tablet: device is a pointer
