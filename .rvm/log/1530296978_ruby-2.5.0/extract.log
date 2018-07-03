@@ -1,0 +1,67 @@
+[2018-06-29 12:30:08] __rvm_package_extract
+__rvm_package_extract () 
+{ 
+    rvm_debug __rvm_package_extract:$#: "$@";
+    \typeset __tempdir __path __file __return;
+    __return=0;
+    __tempdir="$( TMPDIR="${rvm_tmp_path}" mktemp -d -t rvm-tmp.XXXXXXXXX )";
+    __rvm_package_extract_run "$1" "$__tempdir" || __return=$?;
+    if (( __return == 0 )); then
+        for __path in "$__tempdir"/*;
+        do
+            __file="${__path##*/}";
+            if [[ -n "${__file}" && -e "$2/${__file}" ]]; then
+                \command \rm -rf "$2/${__file}" || __return=$?;
+            fi;
+            \command \mv -f "${__path}" "$2/" || __return=$?;
+        done;
+    fi;
+    if [[ -n "$__tempdir" ]]; then
+        \command \rm -rf "$__tempdir";
+    fi;
+    return $__return
+}
+current path: /home/tyson/.rvm/src
+GEM_HOME=/home/tyson/.rvm/gems/ruby-2.4.1
+GEM_PATH=/home/tyson/.rvm/gems/ruby-2.4.1:/home/tyson/.rvm/gems/ruby-2.4.1@global
+PATH=/home/tyson/.rvm/gems/ruby-2.4.1/bin:/home/tyson/.rvm/gems/ruby-2.4.1@global/bin:/home/tyson/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tyson/.rvm/bin:/home/tyson/.rvm/bin
+command(3): __rvm_package_extract /home/tyson/.rvm/archives/ruby-2.5.0.tar.bz2 /home/tyson/.rvm/tmp/rvm_src_20389
+++ rvm_debug __rvm_package_extract:2: /home/tyson/.rvm/archives/ruby-2.5.0.tar.bz2 /home/tyson/.rvm/tmp/rvm_src_20389
+++ ((  0  ))
+++ return 0
+++ typeset __tempdir __path __file __return
+++ __return=0
++++ TMPDIR=/home/tyson/.rvm/tmp
++++ mktemp -d -t rvm-tmp.XXXXXXXXX
+++ __tempdir=/home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe
+++ __rvm_package_extract_run /home/tyson/.rvm/archives/ruby-2.5.0.tar.bz2 /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe
+++ [[    != *\ \-\-\n\o\-\s\a\m\e\-\o\w\n\e\r\ * ]]
+++ __rvm_grep -- --no-same-owner
+++ GREP_OPTIONS=
+++ __rvm_tar --help
+++ command grep -- --no-same-owner
+++ grep -- --no-same-owner
+++ rvm_tar_options=--no-same-owner
+++ [[ -d /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe ]]
+++ case "$1" in
+++ [[ -n '' ]]
+++ __rvm_tar xjf /home/tyson/.rvm/archives/ruby-2.5.0.tar.bz2 -C /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe --no-same-owner
+++ tar xjf /home/tyson/.rvm/archives/ruby-2.5.0.tar.bz2 -C /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe --no-same-owner
+++ __rvm_fix_group_permissions /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe/ruby-2.5.0
+++ __rvm_grep g=rw
+++ GREP_OPTIONS=
+++ command grep g=rw
+++ umask -S
+++ grep g=rw
+++ return 1
+++ ((  __return == 0  ))
+++ for __path in "$__tempdir"/*
+++ __file=ruby-2.5.0
+++ [[ -n ruby-2.5.0 ]]
+++ [[ -e /home/tyson/.rvm/tmp/rvm_src_20389/ruby-2.5.0 ]]
+++ command mv -f /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe/ruby-2.5.0 /home/tyson/.rvm/tmp/rvm_src_20389/
+++ mv -f /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe/ruby-2.5.0 /home/tyson/.rvm/tmp/rvm_src_20389/
+++ [[ -n /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe ]]
+++ command rm -rf /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe
+++ rm -rf /home/tyson/.rvm/tmp/rvm-tmp.s5BVL4soe
+++ return 0

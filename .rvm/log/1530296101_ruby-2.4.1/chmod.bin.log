@@ -1,0 +1,25 @@
+[2018-06-29 12:25:45] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/tyson/.rvm/src/ruby-2.4.1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tyson/.rvm/bin
+command(8): __rvm_set_executable /home/tyson/.rvm/rubies/ruby-2.4.1/bin/erb /home/tyson/.rvm/rubies/ruby-2.4.1/bin/gem /home/tyson/.rvm/rubies/ruby-2.4.1/bin/irb /home/tyson/.rvm/rubies/ruby-2.4.1/bin/rake /home/tyson/.rvm/rubies/ruby-2.4.1/bin/rdoc /home/tyson/.rvm/rubies/ruby-2.4.1/bin/ri /home/tyson/.rvm/rubies/ruby-2.4.1/bin/ruby
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/erb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/gem ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/irb ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/rake ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/rdoc ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/ri ]]
+++ /scripts/functions/gemset : __rvm_set_executable()  372 > for __file in "$@"
+++ /scripts/functions/gemset : __rvm_set_executable()  373 > [[ -x /home/tyson/.rvm/rubies/ruby-2.4.1/bin/ruby ]]

@@ -1,0 +1,10 @@
+[2018-06-29 12:18:12] __rvm_patch
+__rvm_patch () 
+{ 
+    \patch "$@" || return $?
+}
+current path: /home/tyson/.rvm/src/ruby-2.4.1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tyson/.rvm/bin
+command(8): __rvm_patch -F 25 -p1 -N -f -i /home/tyson/.rvm/patches/ruby/2.4.1/random_c_using_NR_prefix.patch
+++ /scripts/functions/support : __rvm_patch()  383 > patch -F 25 -p1 -N -f -i /home/tyson/.rvm/patches/ruby/2.4.1/random_c_using_NR_prefix.patch
+patching file random.c

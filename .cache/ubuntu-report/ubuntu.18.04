@@ -1,0 +1,59 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "CPU": [
+    {
+      "Vendor": "GenuineIntel",
+      "Family": "6",
+      "Model": "69",
+      "Stepping": "1"
+    }
+  ],
+  "Arch": "amd64",
+  "RAM": 2.5,
+  "Partitions": [
+    10.3
+  ],
+  "Screens": [
+    {
+      "Resolution": "1360x664",
+      "Frequency": "59.98"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Timezone": "America/Denver",
+  "Install": {
+    "Media": "Ubuntu 18.04 LTS \"Bionic Beaver\" - Release amd64 (20180426)",
+    "Type": "GTK",
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "2": "language",
+      "558": "console_setup",
+      "563": "prepare",
+      "575": "partman",
+      "586": "start_install",
+      "599": "timezone",
+      "603": "usersetup",
+      "614": "user_done",
+      "1314": "done"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[2018-06-29 12:37:01] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /home/tyson/.rvm/src/ruby-2.5.0
+GEM_HOME=/home/tyson/.rvm/gems/ruby-2.4.1
+GEM_PATH=/home/tyson/.rvm/gems/ruby-2.4.1:/home/tyson/.rvm/gems/ruby-2.4.1@global
+PATH=/home/tyson/.rvm/gems/ruby-2.4.1/bin:/home/tyson/.rvm/gems/ruby-2.4.1@global/bin:/home/tyson/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/tyson/.rvm/bin:/home/tyson/.rvm/bin
+command(8): __rvm_set_executable /home/tyson/.rvm/rubies/ruby-2.5.0/bin/erb /home/tyson/.rvm/rubies/ruby-2.5.0/bin/gem /home/tyson/.rvm/rubies/ruby-2.5.0/bin/irb /home/tyson/.rvm/rubies/ruby-2.5.0/bin/rake /home/tyson/.rvm/rubies/ruby-2.5.0/bin/rdoc /home/tyson/.rvm/rubies/ruby-2.5.0/bin/ri /home/tyson/.rvm/rubies/ruby-2.5.0/bin/ruby
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/erb ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/gem ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/irb ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/rake ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/rdoc ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/ri ]]
+++ for __file in "$@"
+++ [[ -x /home/tyson/.rvm/rubies/ruby-2.5.0/bin/ruby ]]
