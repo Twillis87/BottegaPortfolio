@@ -61,12 +61,12 @@
    },
    "7I+AXP75S5DVItgGv9skSDRtI+4k2o7edYEeA0xGC5Q=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1562194570.293783,
+      "expiry": 1562382543.596841,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1530658570.293786
+      "sts_observed": 1530846543.596843
    },
    "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -112,27 +112,27 @@
    },
    "IOm8EqmCuxTAkUzf220T3cMBmvINcTbr5fs5zRrRP2s=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1562172421.794949,
+      "expiry": 1562195321.122385,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1530636421.794951
+      "sts_observed": 1530659321.122388
    },
    "Ifty0kmGtBkqpzyRNEJ2iccvLpOffAEtEf72UjNCr0U=": {
       "dynamic_spki_hashes_expiry": 0.0,
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1533250566.324297,
-         "expect_ct_observed": 1530658566.324297,
+         "expect_ct_expiry": 1533251323.761043,
+         "expect_ct_observed": 1530659323.761043,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1562194570.455633,
+      "expiry": 1562382543.574611,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1530658570.455637
+      "sts_observed": 1530846543.574614
    },
    "LAZkYS46RVRcFiZAzmUJrz6TJHBd4nwE6VxPWfPLYHs=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -184,12 +184,12 @@
    },
    "a3B8SKjLD5tirvmv/z7o9v4o14J4mMF9RqvzuL7/H4M=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1562172430.61619,
+      "expiry": 1562195374.329965,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1530636430.616193
+      "sts_observed": 1530659374.329968
    },
    "b+1zAjx7TfZR0tau/Dayr1KXpJsp8wekXoIt8+pqvbs=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -204,16 +204,16 @@
       "dynamic_spki_hashes_expiry": 0.0,
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1533250568.869218,
-         "expect_ct_observed": 1530658568.869218,
+         "expect_ct_expiry": 1533438542.231188,
+         "expect_ct_observed": 1530846542.231188,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1562194568.8692,
+      "expiry": 1562382542.231173,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1530658568.869206
+      "sts_observed": 1530846542.231178
    },
    "bywsWJ8hm+sHUmAFlc6Ve96NNW2xkhVCmIlJ4yAPpU8=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -235,12 +235,12 @@
    },
    "cdXsRIDIO71umbH3BU5pMTdmWGYAYUOPTqJH5G3E+Uc=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1562194982.899065,
+      "expiry": 1562382475.554327,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1530658982.899068
+      "sts_observed": 1530846475.554335
    },
    "cy5Y7XG088/ZMeKBDo7YsNJyp1lkSmEiiPJd9TmV2fA=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -262,12 +262,12 @@
    },
    "kTBZlNzaAygsyUNLLJvF9CS33eqAcPjUb75PGjCOtnM=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1562194570.130612,
+      "expiry": 1562382543.279185,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1530658570.130615
+      "sts_observed": 1530846543.279187
    },
    "kgoAu5f1oNNkEw3HUsnsMK8nj5rt5pjWynr3bH+lT+Q=": {
       "dynamic_spki_hashes_expiry": 0.0,

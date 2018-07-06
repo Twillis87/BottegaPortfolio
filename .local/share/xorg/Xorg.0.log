@@ -432,3 +432,4 @@ Release Date: 2017-12-20
 [  1265.564] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
 [  1265.566] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
 [  1265.566] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[  2132.369] (EE) client bug: timer event4 debounce short: offset negative (-1ms)
